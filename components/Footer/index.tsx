@@ -28,25 +28,19 @@ const Footer = () => {
                 viewport={{ once: true }}
                 className="animate_top w-1/2 lg:w-1/4"
               >
-                <a href="/" className="relative">
+                <a href="/" className="relative flex flex-row">
                   <Image
-                    width={110}
+                    width={90}
                     height={80}
-                    src="/images/logo/logo-light.svg"
+                    src="/images/logo/logo-himaja.png"
                     alt="Logo"
-                    className="dark:hidden"
+                    className=""
                   />
-                  <Image
-                    width={110}
-                    height={80}
-                    src="/images/logo/logo-dark.svg"
-                    alt="Logo"
-                    className="hidden dark:block"
-                  />
+                  <p className="text-center content-center font-extrabold text-white text-3xl ml-4">HIMAJA UNSRI</p>
                 </a>
 
-                <p className="mb-10 mt-5">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <p className="mb-10 mt-5 text-justify">
+                  Sekretariat : Jalan Tamyiz, Kec. Indralaya Utara, Kabupaten Ogan Indralaya Ilir, 30862
                 </p>
 
                 <p className="mb-1.5 text-sectiontitle uppercase tracking-[5px]">
@@ -54,9 +48,9 @@ const Footer = () => {
                 </p>
                 <a
                   href="#"
-                  className="text-itemtitle font-medium text-black dark:text-white"
+                  className="text-md font-medium text-black dark:text-white"
                 >
-                  hello@solid.com
+                  himaja.unsri@gmail.com
                 </a>
               </motion.div>
 
@@ -106,14 +100,6 @@ const Footer = () => {
                         className="mb-3 inline-block hover:text-primary"
                       >
                         Careers
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="mb-3 inline-block hover:text-primary"
-                      >
-                        Pricing
                       </a>
                     </li>
                   </ul>
@@ -301,7 +287,7 @@ const Footer = () => {
               className="animate_top"
             >
               <p>
-                &copy; {new Date().getFullYear()} Solid. All rights reserved
+                &copy; {new Date().getFullYear()} Himaja Unsri. All rights reserved
               </p>
             </motion.div>
 
