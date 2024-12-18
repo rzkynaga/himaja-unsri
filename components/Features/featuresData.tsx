@@ -4,44 +4,44 @@ const featuresData: Feature[] = [
   {
     id: 1,
     icon: "/images/icon/icon-01.svg",
-    title: "Crafted for SaaS",
+    title: "Himaja yang Inklusif",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Menciptakan suasana agar tiap anggota Keluarga Besar merasa diterima tanpa memandang latar belakang.",
   },
   {
     id: 2,
     icon: "/images/icon/icon-02.svg",
-    title: "High-quality Design",
+    title: "Himaja yang Proyektif",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Berkomitmen menyediakan pelatihan dan wadah peningkatan keterampilan profesional anggota untuk jangka panjang nantinya",
   },
   {
     id: 3,
     icon: "/images/icon/icon-03.svg",
-    title: "Next.js 13 + TypeScript",
+    title: "Himaja yang Transparan",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Menerapkan sistem pelaporan keuangan yang jelas dan lugas serta dapat diakses oleh semua anggota Keluarga Besar.",
   },
   {
     id: 4,
     icon: "/images/icon/icon-04.svg",
-    title: "Sanity Blog and Docs",
+    title: "Himaja yang Berdampak",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Merancang program-program yang memberikan dampak positif yang nyata bagi masyarakat dan lingkungan, agar kebermanfaatan semakin terasa.",
   },
   {
     id: 5,
     icon: "/images/icon/icon-05.svg",
-    title: "DB, Auth and Stripe",
+    title: "Himaja yang Berprestasi",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Ambisius pada pencapaian prestasi kolektif yang menginspirasi, baik di tingkat lokal maupun nasional, sejalan dengan pelatihan yang masif.",
   },
   {
     id: 6,
     icon: "/images/icon/icon-06.svg",
-    title: "Regular Free Updates",
+    title: "Himaja yang Dinamis",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Selalu siap beradaptasi dengan perubahan dan pengembangan inovasi baru yang masih sejalan dan bernilai guna serta berdaya saing.",
   },
 ];
 

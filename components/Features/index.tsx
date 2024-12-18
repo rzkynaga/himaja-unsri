@@ -13,11 +13,10 @@ const Feature = () => {
           {/* <!-- Section Title Start --> */}
           <SectionHeader
             headerInfo={{
-              title: "SOLID FEATURES",
-              subtitle: "Core Features of Solid",
-              description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-            convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam
-            ante in maximus.`,
+              title: "ARUNA SIGINJAI",
+              subtitle: "Visi dan Misi Himpunan",
+              description: `Dilantik pada 15 Juli 2024, Kabinet Kepengurusan Aruna Siginjai beranggotakan 
+              38 Orang fungsionaris yang dibagi menjadi BPI dan 6 BPH Departemen`,
             }}
           />
           {/* <!-- Section Title End --> */}
