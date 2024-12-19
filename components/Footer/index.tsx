@@ -36,19 +36,27 @@ const Footer = () => {
                     alt="Logo"
                     className=""
                   />
-                  <p className="text-center content-center font-extrabold text-white text-3xl ml-4">HIMAJA UNSRI</p>
+                  <p className="ml-4 content-center text-center text-3xl font-extrabold text-white">
+                    HIMAJA UNSRI
+                  </p>
                 </a>
 
-                <p className="mb-10 mt-5 text-justify">
-                  Sekretariat : Jalan Tamyiz, Kec. Indralaya Utara, Kabupaten Ogan Indralaya Ilir, 30862
+                <h5 className="font-semibold text-white mt-4">Kampus Utama</h5>
+                <p className="w-full text-justify font-light leading-relaxed text-sm text-white lg:w-[90%]">
+                  Jl. Raya Palembang-Prabumulih KM. 32, Indralaya Indah, Kec.
+                  Indralaya, Kabupaten Ogan Ilir, Sumatera Selatan (30862)
                 </p>
-
-                <p className="mb-1.5 text-sectiontitle uppercase tracking-[5px]">
-                  contact
+                <h5 className="font-bold text-white mt-2">Sekretariat</h5>
+                <p className="text-justify leading-relaxed font-light text-sm text-white lg:w-[90%]">
+                  Jalan Tamyiz, Kec. Indralaya Utara, Kabupaten Ogan Ilir
+                  (30862)
+                </p>
+                <p className="text-xs text-sectiontitle mt-4 uppercase tracking-[5px]">
+                  contact us
                 </p>
                 <a
                   href="#"
-                  className="text-md font-medium text-black dark:text-white"
+                  className="text-sm font-normal text-black dark:text-white"
                 >
                   himaja.unsri@gmail.com
                 </a>
@@ -287,7 +295,8 @@ const Footer = () => {
               className="animate_top"
             >
               <p>
-                &copy; {new Date().getFullYear()} Himaja Unsri. All rights reserved
+                &copy; {new Date().getFullYear()} Himaja Unsri. All rights
+                reserved
               </p>
             </motion.div>
 

@@ -17,10 +17,10 @@ const featuresData: Feature[] = [
   },
   {
     id: 3,
-    icon: "/images/icon/icon-03.svg",
-    title: "Himaja yang Transparan",
+    icon: "/images/icon/icon-06.svg",
+    title: "Himaja yang Dinamis",
     description:
-      "Menerapkan sistem pelaporan keuangan yang jelas dan lugas serta dapat diakses oleh semua anggota Keluarga Besar.",
+      "Selalu siap beradaptasi dengan perubahan dan pengembangan inovasi baru yang masih sejalan dan bernilai guna serta berdaya saing.",
   },
   {
     id: 4,
@@ -38,10 +38,10 @@ const featuresData: Feature[] = [
   },
   {
     id: 6,
-    icon: "/images/icon/icon-06.svg",
-    title: "Himaja yang Dinamis",
+    icon: "/images/icon/icon-03.svg",
+    title: "Himaja yang Transparan",
     description:
-      "Selalu siap beradaptasi dengan perubahan dan pengembangan inovasi baru yang masih sejalan dan bernilai guna serta berdaya saing.",
+      "Menerapkan sistem pelaporan keuangan yang jelas dan lugas serta dapat diakses oleh semua anggota Keluarga Besar.",
   },
 ];
 
