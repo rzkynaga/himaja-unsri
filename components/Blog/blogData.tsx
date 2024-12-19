@@ -3,10 +3,10 @@ import { Blog } from "@/types/blog";
 const BlogData: Blog[] = [
   {
     _id: 1,
-    mainImage: "/images/blog/blog-01.png",
-    title: "Free advertising for your online business",
+    mainImage: "/images/blog/blog-01.jpg",
+    title: "Menangkan Kompetisi Disforia Culture Festival 2.0, Himaja Semakin Terbang Tinggi di Bumi Sriwijaya",
     metadata:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
+      "Art of Himaja (ARA), klub seni Himaja berhasil meraih Juara 1 pada ajang sendratasik yang dihelatkan di Auditorium Unsri.",
   },
   {
     _id: 2,

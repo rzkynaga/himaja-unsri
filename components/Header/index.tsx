@@ -43,9 +43,9 @@ const Header = () => {
               alt="logo"
               width={10}
               height={4}
-              className="hidden w-full dark:block mr-4"
+              className="w-full dark:block mr-4"
             />
-            <p className="content-center text-white text-clip">HIMAJA UNSRI</p>
+            <p className="text-gray-900 content-center font-semibold dark:text-white">HIMAJA UNSRI</p>
           </a>
 
           {/* <!-- Hamburger Toggle BTN --> */}
@@ -149,17 +149,17 @@ const Header = () => {
             <ThemeToggler />
 
             <Link
-              href="https://github.com/rzkynaga"
+              href="https://www.linkedin.com/company/himajaunsri"
               className="text-regular font-medium text-waterloo hover:text-primary"
             >
-              GitHub 🌟
+              LinkedIn
             </Link>
 
             <Link
               href="https://nextjstemplates.com/templates/solid"
               className="flex items-center justify-center rounded-full bg-primary px-7.5 py-2.5 text-regular text-white duration-300 ease-in-out hover:bg-primaryho"
             >
-              Get Pro 🔥
+              Join Us!
             </Link>
           </div>
         </div>

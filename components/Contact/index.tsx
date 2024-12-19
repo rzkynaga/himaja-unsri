@@ -107,7 +107,7 @@ const Contact = () => {
                       type="checkbox"
                       className="peer sr-only"
                     />
-                    <span className="border-gray-300 bg-gray-100 text-blue-600 dark:border-gray-600 dark:bg-gray-700 group mt-2 flex h-5 min-w-[20px] items-center justify-center rounded peer-checked:bg-primary">
+                    <span className="group mt-2 flex h-5 min-w-[20px] items-center justify-center rounded border-gray-300 bg-gray-100 text-blue-600 peer-checked:bg-primary dark:border-gray-600 dark:bg-gray-700">
                       <svg
                         className="opacity-0 peer-checked:group-[]:opacity-100"
                         width="10"
@@ -174,22 +174,32 @@ const Contact = () => {
               viewport={{ once: true }}
               className="animate_top w-full md:w-2/5 md:p-7.5 lg:w-[26%] xl:pt-15"
             >
-              <h2 className="mb-12.5 text-3xl font-semibold text-black dark:text-white xl:text-sectiontitle2">
-                Find us
+              <h2 className="mb-8 text-3xl font-semibold text-black dark:text-white xl:text-sectiontitle2">
+                Kontak Kami
               </h2>
 
               <div className="5 mb-7">
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
-                  Our Loaction
+                  Lokasi Sekretariat
                 </h3>
-                <p>290 Maryam Springs 260, Courbevoie, Paris, France</p>
+                {/* <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d248.9737457468807!2d104.6585393!3d-3.2044528!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3bbd00703d0aef%3A0x8065e060af2e9819!2sSekret%20Himaja!5e0"
+                  width="250"
+                  height="150"
+                ></iframe> */}
+                <a href="https://maps.app.goo.gl/gQ83EohzWhDUn7ZZ9" className="mt-2 text-justify">
+                  Lrg. Kecapi, Timbangan, Kecamatan Indralaya Utara, Kabupaten
+                  Ogan Ilir, Sumatera Selatan 30862
+                </a>
               </div>
               <div className="5 mb-7">
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
                   Email Address
                 </h3>
                 <p>
-                  <a href="#">yourmail@domainname.com</a>
+                  <a href="mailto:himaja.unsri@gmail.com">
+                    himaja.unsri@gmail.com
+                  </a>
                 </p>
               </div>
               <div>
@@ -197,7 +207,7 @@ const Contact = () => {
                   Phone Number
                 </h4>
                 <p>
-                  <a href="#">+009 42334 6343 843</a>
+                  <a href="https://wa.me/6281277477363">+62 812-7747-7363</a>
                 </p>
               </div>
             </motion.div>
